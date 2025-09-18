@@ -1,0 +1,424 @@
+PowerPoint Speaker Notes Extract
+==================================================
+
+Total slides with notes: 31
+Total note items: 31
+Extraction date: 2025-09-18 10:40:02
+
+SLIDE 2
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    This presentation regards the 3rd reporting period of the WP 6 – User Experience, Dashboards & Immersive Visualization
+------------------------------
+
+
+SLIDE 3
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Objective: Demonstrate the DTO impacts through testing of pilots, with to-date and what-if scenarios.
+
+    Challenges: 
+    DTOs need to perform actions across a variety of ocean areas with different requirements. End-users for the different pilots come from a variety of backgrounds and professions and have different requirements for accuracy and performance.  
+    Some use cases require location-specific operational high-resolution data, that is not available from either models or sensors alone. Operational data also needs to be reliant on what-if scenarios and still be domain-specific and realistic.
+    ------------------------------
+
+
+SLIDE 4
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    This work package has been focused on creating multiple tools that could cater to each specific domain and requirements, instead of aiming at creating one solution for all.
+    The multiple areas that have been the foci in this RP are marked in blue:
+    The core infrastructure of Iliad hosting all the DT applications
+    And all the applications both created from scratch by this WP or somehow extended by this wp, in both
+    The Geo-Data Visualization tools
+    Immersive VR/AR/PC solutions
+    Which led to the specific deliverables for this RP.
+------------------------------
+
+
+SLIDE 5
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Task 6.3 Performance and Dashboards – Design and Development (M16 – M30) 
+
+    This regards the Core Platform Infrastructure for the tools that 
+    are enabling both to-date and what-if scenario analysis, and that 
+    Users can use to promote operational decision-support.
+    ------------------------------
+
+
+SLIDE 6
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    This refers to the marketplace.
+    ------------------------------
+
+
+SLIDE 7
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The Iliad Interactive Environment and Marketplace was fully developed during the 3rd Period, led by BLIT. 
+    It serves as the central discovery and access point for all Digital Twin applications, which are currently over 100 and available to the public through the Marketplace.
+------------------------------
+
+
+
+
+SLIDE 8
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Performance and Administrative dashboard systems were developed during this period, which also helped assess the impact of the work done overall.
+
+
+    Regarding the performance dashboard:
+    Product owners can monitor product usage
+    And edit and manage their products and monitor their health (the uptime and response time of each product).
+------------------------------
+
+
+
+SLIDE 9
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Regarding the Administrative dashboard:
+    It provides metrics for all products, geographic interest, leaderboards for product engagement, and feedback given by users.
+    Administrators can adjust product listings and approve submitted products before going live
+------------------------------
+
+
+
+
+
+SLIDE 10
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Now moving onto the geo data visualization solutions that were designed and developed in this reporting period.
+    ------------------------------
+
+
+SLIDE 12
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The objective of this task was to have a geo-visualization platform capable of dynamically rendering spatio-temporal marine datasets, facilitating user interaction, scenario exploration, and data-driven decision support. 
+
+
+    BUas led the development of GeoViz for the Water Quality pilot led by Sintef Ocean. This consisted of using GeoViz to visualize plastic particles recorded by deployed sensor platforms across multiple ocean layers and timeframes.
+
+
+    Users can:
+    Filter, use different colours, and playback simulation data in 2D, 3D, and temporal (4D) views, adjust bathymetry and weather data. 
+    Simulate hypothetical dispersion patterns by modifying sensor configurations.
+    Use custom NetCDF datasets, meaning it is a tool applicable beyond the Water Quality use case.
+
+
+    This means GeoViz 
+    Delivers operational integration with marine datasets
+    Enables What-if Scenario Exploration 
+------------------------------
+
+
+
+SLIDE 13
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    As part of Geo-data visualization, We also have GeoMachine, a tool extended by BLIT and FORTH and a few other partners.
+
+    GeoMachine is a suite of visualisation components, data clients and services that can be combined to create applications.
+    It has several adaptors that can communicate with external services such as EMODNet and EDITO.
+
+
+    And it was used in two Iliad DTO pilots
+
+
+    BLIT – Blue Lobster (UK)
+    FORTH - IDRYMA TECHNOLOGIAS KAI EREVNAS (Greece)
+    ------------------------------
+
+
+SLIDE 14
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The first one is the Ship routing / harbour safety
+
+
+    Users can go to the pilot page and generate routing data and then use GeoMachine for instantaneous visualization. This slide shows as well the HYDROMAST UI done by TALTECH, which is yet another tool supported by this WP and used in this pilot.
+------------------------------
+
+
+
+SLIDE 15
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The second DTO where GeoMachine is used is the Oil Spill Detection and Forecast. 
+
+    Geomachine automatically creates an interactive visualisation on the map based on the desired parameters for the oil spill. There is also the option to run the simulation with EDITO. In such case, the Geomachine frontend connects to EDITO Datalab and initiates a process to run in EDITO with the options given at the Geomachine Frontend. After the simulation ends, the results are fetched and visualized in the Geomachine Oil spill frontend.
+
+    We can see through these visualizations of both Iliad DTO pilots how operationall readiness and decision-making are supported.
+------------------------------
+
+
+
+SLIDE 16
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Now, these pilots also include work from MEEO and FORTH in the ADAM platform, to serve the data required. 
+    ADAM is a data-as-a-service platform that provides web-based access and APIs to extract past, current, and forecasted data with daily updates, supporting various applications including both mentioned Iliad pilots.
+
+
+    MEEO - METEOROLOGICAL AND ENVIRONMENTAL EARTH OBSERVATION SRL (Italy)
+    FORTH - IDRYMA TECHNOLOGIAS KAI EREVNAS (Greece)
+------------------------------
+
+
+SLIDE 17
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Regarding Geo-Visualization dashboards, there are several being used directly by Iliad DTOs.
+------------------------------
+
+
+SLIDE 18
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The VISie dashboard, hosted by EL ILVO, provides Belgian fishing vessel owners with species-specific catch forecasts and visualizations both in Dutch and English. Access is currently allowed only to the vessel owners who contributed with training data.
+------------------------------
+
+
+SLIDE 19
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    From AUTH, we have the ILIAD DTO-Fisheries Ecosystem Indicators that combines fisheries, biological, and environmental datasets and indicators to evaluate fishing impacts on the overall ecosystem.
+------------------------------
+
+
+
+SLIDE 20
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    AQUASAFE is another important dashboard. It is a water management platform that integrates real-time sensor data with predictive models to help water utilities optimize operations through forecasting, automated alerts, scenario simulations, and energy optimization.
+
+    This platform was used in 4 Iliad DTO pilots:
+    Jellyfish (Israel)
+    Aquaculture (Adriatic)
+    Tidal Energy (Scotland)
+    Aquaculture and MSP (Maroc)
+
+    HIDROMOD - HIDROMOD MODELACAO EM ENGENHARIA LDA (Portugal)
+------------------------------
+
+
+SLIDE 21
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Now, regarding Task 6.5 on immersive applications
+------------------------------
+
+
+SLIDE 22
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    There are other dashboards to present, but now I am shifting the presentation towards immersive VR/AR applications, because many of the other dashboards are connected to these immersive applications and are all part of an ecosystem.
+------------------------------
+
+SLIDE 23
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Task 6.5 had the objective to produce operational and validated VR applications.
+
+    One of the results was the Procedural Ocean, an application developed from scratch for this work package by BUas and other partners such as Fraunhofer. It:
+    - Procedurally generates interactive and immersive 3D environments from 2D MSP geo-data and real time data feeds.
+    - It generates dynamic, user configurable scenarios to explore to-date and what-if scenarios with decision support relevance.
+
+    FHG - FRAUNHOFER GESELLSCHAFT ZUR FOERDERUNG DER ANGEWANDTEN FORSCHUNG E.V.
+------------------------------
+
+
+SLIDE 24
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The Procedural Ocean demonstrated its practical value through deployment in Iliad DTO pilot on Windfarm/Energy maintenance & operations (12.01), where it successfully visualized maintenance vessel operations around wind turbines in northern Portugal, providing stakeholders with immersive understanding of offshore operational dynamics and maintenance logistics.
+------------------------------
+
+
+SLIDE 25
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Procedural Ocean has also demonstrated Impact outside Iliad DTO pilots. It was applied to real scientific simulation data on water turbidity, provided by a scientific partner on multiple EDITO associated projects. This partner wanted to explore ways to visualize water turbidity around wind pilons, both in 2D and 3D, and use both simulated data and actual data that their scientific models produce.
+------------------------------
+
+
+SLIDE 26
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    Still related to the Oil Spill Detection and Forecast DTO, and also related to T6.5, INESC further developed an existing ecosystem called MITE, which relies on setting up virtual Choreographies for digital twins of the ocean. 
+    This means using ways to display the same problem through different visualization methods and generated automatically.
+------------------------------
+
+
+SLIDE 27
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    We can see here the oil spill DTO pilot again, using a tool in Unity3D, Another in Cesium, and another in three.js.
+
+    The MITE ecosystem from INESC proves and promotes Interoperability and Collaboration among entities using different technologies, which ultimately leads to Improved situational awareness and decision-making.
+------------------------------
+
+
+SLIDE 28
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    From TU Varna, and still in the immersive visualization task of the WP, we’ve got three applications interacting together.
+
+    Technical University of Varna
+------------------------------
+
+
+SLIDE 29
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    One for Blind Navigation of vessels in the Varna Port (due to fog conditions, and wind-related difficulties)
+    Another one for Risk assessment
+    And the I See Sea (ICC) citizen science dashboard. 
+
+
+    All 3 applications are connected. The I see sea web dashboard enables citizens to report on extreme meteorological events, pollution in the sea or on the coast, jellyfish congregations, and other observations. These observations are then visualizable through both the risk assessment application but also immersively in the AR tool being shown.
+    The I See Sea was used in the Jellyfish DTO pilot, and, Overall, all these tools aim at improving the safety of harbours. 
+------------------------------
+
+
+
+
+SLIDE 30
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    RAMANI has developed a modular, interoperable suite for building Digital Twins of coastal and ocean environments. It developed 5 applications:
+
+    Semflow and FlowCell assist Marine planners in scenario testing under uncertain conditions.
+
+    Lemon App: helps Oyster/mussel farmers decide when/where to seed or harvest.
+
+    SemLinked:  helps harmonize fragmented marine regulations and evaluate policy impact.
+
+    OyTwin:  (next slide)
+------------------------------
+
+
+SLIDE 31
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    OyTwin: produces affordable, realistic training data for computer vision–based benthic mapping. IT uses Procedural content generation for oyster DTOs.
+------------------------------
+
+
+SLIDE 32
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    The last tool to be mentioned as part of the overall WP6 ecosystem is NiMMbus.
+
+    NiMMbus is a feedback interface that allows users to comment on, rate, and document their experiences with external datasets or metadata. It helps data producers understand how their resources are used, detect issues, and capture user perceptions. It aims at the overall Integration & Ecosystem Impact in Iliad.
+------------------------------
+
+
+SLIDE 33
+====================
+
+Note #1 (Shape 2):
+Type: 14
+Text:
+    As conclusions and key messages, the Objective of this WP was about Demonstration of Impact through Pilots and Decision Support Tools
+    This work package created multiple operational and validated solutions that enable both to-date and what-if scenario analysis, thus promoting operational decision support.
+    The developed DT applications were demonstrated in real-world pilots.
+    And many of them are still receiving alignment from Marine stakeholder and policy makers’ feedback.
+------------------------------
+
+
